@@ -15,12 +15,8 @@ const Sobre: FunctionComponent = () => {
       <div className="footer-navigation">
         <div className="footer-links">
           <div className="view-all">
-            {`Or start a 14 Day `}
-            <span className="free-trial">{`Free Trial `}</span>
-          </div>
-          <div className="view-all">
-            {`Or start a 14 Day `}
-            <span className="free-trial">{`Free Trial `}</span>
+            {`Challenge `}
+            <span className="copyright">{`FIAP 1ESPV`}</span>
           </div>
         </div>
       </div>

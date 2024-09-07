@@ -9,7 +9,7 @@ export type MainType = {
 const Main: FunctionComponent<MainType> = ({ className = "" }) => {
   return (
     <section className={`main ${className}`}>
-      <div className="main-child" />
+      {/* <div className="main-child" />
       <div className="gallery-header">
         <div className="view-all5">Planos</div>
       </div>
@@ -105,7 +105,7 @@ const Main: FunctionComponent<MainType> = ({ className = "" }) => {
             />
           </div>
         </div>
-      </form>
+      </form> */}
     </section>
   );
 };
