@@ -23,5 +23,9 @@ Não devem ser utilizados recursos não abordados em aula como o Next JS nessa t
   3) Rode o seguinte comando `npm start` e veja o projeto no link retornado
 
 ## Link Vercel
+https://cp1-react-gamma.vercel.app/ 
 
-  
+## Membros
+- Luiza Macena
+- Eduardo Fakiani
+- Fernanda Menon
