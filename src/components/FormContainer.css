@@ -1,0 +1,182 @@
+.bg-light,
+.nome {
+  position: relative;
+}
+.nome {
+  width: 116px;
+  border: 0;
+  outline: 0;
+  font-family: var(--font-roboto-mono);
+  font-size: var(--font-size-9xl);
+  background-color: transparent;
+  height: 29.2px;
+  color: var(--color-darkslategray-100);
+  text-align: left;
+  display: inline-block;
+  padding: 0;
+}
+.bg-light {
+  align-self: stretch;
+  flex: 1;
+  box-shadow: 0 2px 4px rgba(38, 50, 56, 0.08), 0 4px 6px rgba(38, 50, 56, 0.08);
+  border-radius: var(--br-80xl);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gainsboro);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.light {
+  height: 32px;
+  flex: 1;
+}
+.default1,
+.light,
+.name-field {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.default1 {
+  flex: 1;
+  min-width: 254px;
+}
+.name-field {
+  align-self: stretch;
+  row-gap: 20px;
+}
+.e-mail,
+.e-mail1 {
+  height: 42px;
+  flex: 1;
+  position: relative;
+  display: inline-block;
+}
+.e-mail1 {
+  z-index: 1;
+  margin-left: -116px;
+}
+.email-labels {
+  width: 116px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.light1 {
+  align-self: stretch;
+  flex: 1;
+  flex-direction: row;
+}
+.default2,
+.email-input-background,
+.form-fields,
+.light1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.default2 {
+  align-self: stretch;
+  height: 32px;
+  flex-direction: row;
+  z-index: 2;
+}
+.email-input-background,
+.form-fields {
+  flex-direction: column;
+}
+.email-input-background {
+  flex: 1;
+  padding: var(--padding-8xs) 0 0;
+  box-sizing: border-box;
+  min-width: 254px;
+}
+.form-fields {
+  align-self: stretch;
+  gap: var(--gap-13xl);
+}
+.mensagem {
+  width: 177px;
+  position: relative;
+  display: inline-block;
+}
+.message-field {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-3xs);
+  gap: var(--gap-xl);
+}
+.rectangle-div {
+  height: 34px;
+  width: 225px;
+  position: relative;
+  border-radius: var(--br-7xs);
+  background-color: var(--color-royalblue);
+  display: none;
+}
+.view-all2 {
+  position: relative;
+  font-size: var(--font-size-sm);
+  letter-spacing: 0.33px;
+  text-transform: capitalize;
+  display: inline-block;
+  font-family: var(--font-roboto-mono);
+  color: var(--color-white);
+  text-align: center;
+  min-width: 53px;
+  z-index: 1;
+}
+.rectangle-parent {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-6xs) var(--padding-xl) var(--padding-4xs)
+    var(--padding-9xl);
+  background-color: var(--color-royalblue);
+  width: 225px;
+  border-radius: var(--br-7xs);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.rectangle-parent:hover {
+  background-color: var(--color-mediumpurple);
+}
+.form-container {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-8xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-7xl);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-roboto-mono);
+}
+@media screen and (max-width: 675px) {
+  .form-fields {
+    gap: var(--gap-base);
+  }
+}
+@media screen and (max-width: 450px) {
+  .nome {
+    font-size: var(--font-size-3xl);
+  }
+  .name-field {
+    flex-wrap: wrap;
+  }
+  .e-mail,
+  .e-mail1,
+  .mensagem {
+    font-size: var(--font-size-2xl);
+  }
+}

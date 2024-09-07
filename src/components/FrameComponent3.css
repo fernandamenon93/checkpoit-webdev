@@ -1,0 +1,172 @@
+.home3 {
+  text-decoration: none;
+  width: 116px;
+  position: relative;
+  color: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.home-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-32xl);
+}
+.bem-vindo-revoluo {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 74px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.somos-uma-startup {
+  width: 497px;
+  position: relative;
+  font-size: var(--font-size-lg);
+  display: inline-block;
+  max-width: 100%;
+}
+.baixe-o-app {
+  position: relative;
+  font-size: var(--font-size-3xl);
+  line-height: 18px;
+  font-weight: 500;
+  font-family: var(--font-roboto-mono);
+  color: var(--color-white);
+  text-align: left;
+}
+.primary-button1 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-5xl) var(--padding-37xl);
+  background-color: var(--color-darkslategray-100);
+  border-radius: var(--br-21xl);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  white-space: nowrap;
+}
+.primary-button1:hover {
+  background-color: var(--color-dimgray);
+}
+.bem-vindo-revoluo-dos-vde-parent,
+.frame-parent3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.bem-vindo-revoluo-dos-vde-parent {
+  align-self: stretch;
+  gap: var(--gap-13xl);
+  font-size: var(--font-size-41xl);
+}
+.frame-parent3 {
+  flex: 1;
+  gap: var(--gap-40xl);
+}
+.sobre3 {
+  text-decoration: underline;
+  width: 116px;
+  position: relative;
+  color: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  margin-left: -5px;
+}
+.frame-parent2 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.contato3 {
+  text-decoration: none;
+  flex: 1;
+  position: relative;
+  color: inherit;
+}
+.contato-wrapper {
+  width: 156px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs);
+  box-sizing: border-box;
+}
+.saved-1-icon,
+.viseo-merge-screen-1 {
+  height: 469px;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-11xl);
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+.saved-1-icon {
+  height: 479px;
+}
+.viseo-merge-screen-1-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-41xl);
+}
+.footer,
+.frame-parent1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.footer {
+  width: 497px;
+  flex-direction: column;
+  gap: var(--gap-25xl);
+}
+.frame-parent1 {
+  flex: 1;
+  flex-direction: row;
+  gap: var(--gap-37xl);
+  text-align: left;
+  font-size: var(--font-size-9xl);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-roboto-mono);
+}
+@media screen and (max-width: 750px) {
+  .bem-vindo-revoluo-dos-vde-parent {
+    gap: var(--gap-base);
+  }
+  .frame-parent3 {
+    gap: var(--gap-10xl);
+  }
+  .viseo-merge-screen-1-parent {
+    gap: var(--gap-11xl);
+  }
+  .footer {
+    gap: var(--gap-3xl);
+  }
+  .frame-parent1 {
+    gap: var(--gap-9xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .primary-button1 {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

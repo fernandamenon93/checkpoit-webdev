@@ -1,0 +1,105 @@
+.view-all3 {
+  position: relative;
+  letter-spacing: 0.33px;
+  text-transform: capitalize;
+  display: inline-block;
+  min-width: 68px;
+  z-index: 2;
+}
+.item-view-all {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-5xs);
+}
+.bg-light2 {
+  height: 32px;
+  flex: 1;
+  position: relative;
+  box-shadow: 0 2px 4px rgba(38, 50, 56, 0.08), 0 4px 6px rgba(38, 50, 56, 0.08);
+  border-radius: var(--br-80xl);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gainsboro);
+  box-sizing: border-box;
+}
+.default3,
+.light2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.light2 {
+  flex: 1;
+}
+.default3 {
+  width: 100%;
+  margin: 0 !important;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+}
+.r {
+  font-size: var(--font-size-lg);
+}
+.view-all4 {
+  width: 113px;
+  position: relative;
+  letter-spacing: 0.33px;
+  text-transform: capitalize;
+  display: inline-block;
+  z-index: 3;
+}
+.chevron-right-icon {
+  width: 15px;
+  height: 13.3px;
+  position: relative;
+  object-fit: contain;
+  z-index: 3;
+}
+.item-navigation {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xs) 0 0;
+}
+.item-content {
+  align-self: stretch;
+  height: 32px;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: var(--padding-10xs) var(--padding-7xs) var(--padding-4xs-7)
+    var(--padding-2xs);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-xl);
+  color: var(--color-gray-300);
+}
+.item,
+.item-content,
+.item-wrapper {
+  display: flex;
+  align-items: flex-start;
+}
+.item {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-4xs);
+}
+.item-wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 var(--padding-6xs) var(--padding-146xl) var(--padding-5xs);
+  text-align: center;
+  font-size: var(--font-size-xs);
+  color: var(--color-lightslategray);
+  font-family: var(--font-roboto-mono);
+}

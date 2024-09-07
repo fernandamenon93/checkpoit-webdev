@@ -1,0 +1,120 @@
+.crie-seus-vdeos {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 74px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.transforme-suas-ideias {
+  width: 497px;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  display: inline-block;
+  max-width: 100%;
+}
+.comear-agora {
+  position: relative;
+  font-size: var(--font-size-3xl);
+  line-height: 18px;
+  font-weight: 500;
+  font-family: var(--font-roboto-mono);
+  color: var(--color-white);
+  text-align: left;
+}
+.primary-button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-5xl) var(--padding-37xl);
+  background-color: var(--color-darkslategray-100);
+  border-radius: var(--br-21xl);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  white-space: nowrap;
+}
+.primary-button:hover {
+  background-color: var(--color-dimgray);
+}
+.crie-seus-vdeos-online-parent,
+.frame-wrapper1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.crie-seus-vdeos-online-parent {
+  align-self: stretch;
+  gap: var(--gap-13xl);
+}
+.frame-wrapper1 {
+  width: 577px;
+  padding: var(--padding-lg) 0 0;
+  box-sizing: border-box;
+  min-width: 577px;
+}
+.hero-image-icon {
+  height: 469px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  min-width: 423px;
+}
+.frame-div {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-40xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-41xl);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-roboto-mono);
+}
+@media screen and (max-width: 1125px) {
+  .frame-wrapper1 {
+    flex: 1;
+  }
+  .frame-div {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .crie-seus-vdeos {
+    font-size: var(--font-size-29xl);
+    line-height: 59px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .crie-seus-vdeos-online-parent {
+    gap: var(--gap-base);
+  }
+  .frame-wrapper1,
+  .hero-image-icon {
+    min-width: 100%;
+  }
+  .frame-div {
+    gap: var(--gap-10xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .crie-seus-vdeos {
+    font-size: var(--font-size-17xl);
+    line-height: 44px;
+  }
+  .transforme-suas-ideias {
+    font-size: var(--font-size-lgi);
+  }
+  .primary-button {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

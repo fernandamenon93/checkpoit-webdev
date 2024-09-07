@@ -1,0 +1,179 @@
+.select-one-or,
+.youtube {
+  position: relative;
+  font-weight: 500;
+}
+.select-one-or {
+  width: 77px;
+  display: inline-block;
+}
+.youtube {
+  text-decoration: none;
+  color: inherit;
+}
+.produza-contedo-cativante {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-lg);
+}
+.platform-names {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  font-size: var(--font-size-13xl);
+  color: var(--color-darkslategray-100);
+}
+.waterview-room-icon {
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  margin: 0 !important;
+  top: 8px;
+  left: 220px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.card-grid,
+.select-one-or-multip {
+  display: flex;
+  justify-content: flex-start;
+}
+.select-one-or-multip {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  gap: var(--gap-base);
+}
+.card-grid {
+  width: 309px;
+  border-radius: var(--br-base);
+  background-color: var(--color-peachpuff);
+  flex-shrink: 0;
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-base) var(--padding-15xl);
+  box-sizing: border-box;
+}
+.div,
+.tiktok {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 77px;
+}
+.tiktok {
+  margin: 0;
+  font-size: inherit;
+  font-family: inherit;
+  min-width: 116px;
+}
+.a-standard-room-but-with-water {
+  width: 309px;
+  border-radius: var(--br-base);
+  background-color: var(--color-khaki);
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-base) var(--padding-15xl);
+  box-sizing: border-box;
+}
+.label-child {
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  left: 211px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.iconcalendar {
+  width: 309px;
+  border-radius: var(--br-base);
+  background-color: var(--color-powderblue);
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-base) var(--padding-15xl);
+  box-sizing: border-box;
+}
+.instagram {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+}
+.cards,
+.cards-wrapper,
+.input-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.input-wrapper {
+  width: 309px;
+  border-radius: var(--br-base);
+  background-color: var(--color-royalblue);
+  flex-shrink: 0;
+  align-items: center;
+  padding: var(--padding-base) var(--padding-15xl);
+  box-sizing: border-box;
+}
+.cards,
+.cards-wrapper {
+  align-items: flex-start;
+  max-width: 100%;
+}
+.cards {
+  flex: 1;
+  overflow-x: auto;
+  gap: var(--gap-6xl);
+}
+.cards-wrapper {
+  align-self: stretch;
+  padding: 0 0 0 var(--padding-11xs);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-45xl);
+  color: var(--color-white);
+  font-family: var(--font-roboto-mono);
+}
+@media screen and (max-width: 1050px) {
+  .select-one-or {
+    font-size: var(--font-size-32xl);
+  }
+  .youtube {
+    font-size: var(--font-size-7xl);
+  }
+  .div {
+    font-size: var(--font-size-32xl);
+  }
+  .instagram,
+  .tiktok {
+    font-size: var(--font-size-7xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .select-one-or {
+    font-size: var(--font-size-19xl);
+  }
+  .youtube {
+    font-size: var(--font-size-lgi);
+  }
+  .div {
+    font-size: var(--font-size-19xl);
+  }
+  .instagram,
+  .tiktok {
+    font-size: var(--font-size-lgi);
+  }
+}
